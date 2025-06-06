@@ -1,0 +1,3 @@
+id: validate-werke-limit
+type: hook
+entrypoint: ./index.js
