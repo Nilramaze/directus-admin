@@ -1,7 +1,6 @@
 module.exports = {
   'Kuenstler.items.update': async function (event, { services }) {
-    console.log("✅ Hook wurde getriggert");
-
+        console.log("HOOK GETRIGGERT:", JSON.stringify(event, null, 2));
     const { payload, key } = event;
     if (!payload) throw new Error("Kein Payload");
 
